@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(31, 29, 29);
+    color: white;
+}
+.buttonContainer{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    gap: 30px;
+    display: flex;
+    color: black;
+    
+}
+
+
+.rectungle{
+    padding: 10px 20px;
+    font-size: 21px;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    text-decoration: none; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    width: 70px; 
+    height: 25px; 
+}
+.rectungle:hover{
+    transform: scale(1,1);
+    box-shadow: 0 10px 10px rgba(202, 196, 196, 0.3);
+}
+.mypicture{
+    max-width: 100%; 
+    height: auto;
+}
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: 0; 
+}
+.mainContainer{
+    position: relative;
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start;
+    gap: 20px;
+    margin: 150px 30px 30px 30px;
+}
+.a{
+    text-align: center;
+    margin: 0;
+}
+.b{
+    color: rgb(0, 255, 179);
+    font-size: 40px;
+}
+.mainContainer img {
+    flex-shrink: 0; 
+}
+.kira{
+    font-size: 20px;
+    text-indent: 20px;
+    font-family: cursive;
+}

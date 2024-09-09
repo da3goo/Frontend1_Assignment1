@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My hobbies</title>
+        <style>
+            
+            body {
+                background-color: rgb(31, 29, 29);
+                color: white;
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+            .goBackBtnContainer{
+                position: relative;
+                height: 50px;
+                margin-bottom: 20px;
+            }
+            .goBackBtn{
+                border-radius: 10px;
+                background-color: aqua;
+                color: black;
+                position: fixed;
+                top: 40px;
+                right: 40px;
+                height: 50px;
+                padding: 10px 20px;
+                border: none;
+                cursor:pointer;
+                transition: transform 0.3s ease;
+            }
+            .goBackBtn:hover{
+                transform: scale(1.1)
+            };
+            .textcontainer{
+                max-width: 600px;
+                
+            }
+            .content{
+                display: flex;
+                margin: 20px;
+            }
+            .content img{
+                margin-right: 50px;
+            }
+            .text1{
+                font-size: 26px;
+            }
+            .list{
+                font-size: 20px;
+                text-align: left;
+            }
+            
+            
+            
+        </style>
+    </head>
+    <body>
+        <h1 class="c">Hobbies</h1>
+        <div class="goBackBtnContainer">
+            <button onclick="window.location.href='home.html'" class="goBackBtn"><b>Go Back</b></button>
+        </div>
+        <div class="content">
+            <img src="images/hobbiesImg2.jpg" alt="Hobbies picture" height="337" width="600" >
+            <div class="textcontainer">
+                <p class="text1">
+                    <b>My hobbies:</b>
+                </p>
+                <ul class="list">
+                    <li>Playing videogames( rdr2,cs2,)</li>
+                    <li>Coding</li>
+                    <li>Go for a walk</li>
+                    <li>Talk to close people</li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+
+    </body>
+</html>
